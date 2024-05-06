@@ -19,6 +19,7 @@ body{
 #header{
     width: 100%;
     height: 100vh ;
+    margin-bottom: 50px;
 }
 
 .container{
@@ -80,7 +81,7 @@ nav ul li a{
 }
 
 #about{
-    padding: 80px 0px;
+    padding: 80px 50px;
     color: #ababab;
 }
 
@@ -114,12 +115,15 @@ nav ul li a{
     font-weight: 200;
 }
 
+.projects-wrapper{
+    margin-bottom: 50px;
+}
+
 .proj{
     font-size: 50px;
     font-weight: 600;
     color: white;
-    padding: 70px;
-    margin-left: 80px;
+    text-align: center;
 }
 
  .grid-wrapper .chevron{
@@ -328,6 +332,34 @@ nav ul li a{
     border: none;
     border-radius: 50px;
     cursor: pointer;
+}
+
+.skills-wrapper{
+    margin-bottom: 50px;
+}
+
+.skills-wrapper .skills-display {
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.skills-display .icon-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    
+
+}
+.icon{
+    width: 32px;
+    height: 32px;
+}
+
+.skills-title{
+   text-align: center;
+   margin-top: 20px;
 }
 
 @media screen and (max-width: 900px){
