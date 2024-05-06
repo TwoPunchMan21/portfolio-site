@@ -105,7 +105,7 @@ nav ul li a{
 }
 
 .about-title{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: white;
 }
@@ -120,7 +120,7 @@ nav ul li a{
 }
 
 .proj{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: white;
     text-align: center;
@@ -353,12 +353,14 @@ nav ul li a{
 
 }
 .icon{
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 }
 
 .skills-title{
    text-align: center;
+   font-size: 40px;
+   font-weight: 600;
    margin-top: 20px;
 }
 
