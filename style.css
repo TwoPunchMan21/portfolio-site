@@ -15,7 +15,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 50px 20px;
+    padding: 50px 10%;
     position: sticky;
     /* Ensured no space before !important if used */
     top: 0;
@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-    padding: 50px 20px ;
+    padding: 50px 10%;
 
 }
 
@@ -108,27 +108,31 @@ nav ul li a {
 .button1 {
     background-color: #005fbe;
     color: white;
+    border: none;
 }
 
 .button2 {
     background-color: #1C2541;
+    border: none;
     color: white;
 }
 
 .button1:hover {
     cursor: pointer;
-    background-color: #080808;
+    background-color: #084078;
+    outline: 2px solid white;
     color: white;
 }
 
 .button2:hover {
     cursor: pointer;
     background-color: #0B132B;
+    outline: 2px solid white; 
     color: white;
 }
 
 #about {
-    padding: 50px 20px;
+    /* padding: 50px 10%; */
     color: #ababab;
 }
 
@@ -163,10 +167,6 @@ nav ul li a {
     font-weight: 200;
 }
 
-.projects-wrapper {
-   padding: 50px 20px;
-}
-
 .proj {
     font-size: 40px;
     font-weight: 600;
@@ -199,11 +199,9 @@ nav ul li a {
 
 .grid-wrapper {
     max-width: 100%;
-    /* width: 100%;*/
-    /* margin-left: 210px; */
     position: relative;
     overflow: hidden;
-    padding: 50px 20px;
+    padding: 50px 10%;
 
 
 }
@@ -255,7 +253,6 @@ span {
 
 .carousel .element {
     scroll-snap-align: start;
-    /* height: 342px; */
     list-style: none;
     background: #fff;
     border-radius: 8px;
@@ -329,28 +326,12 @@ span {
 
 }
 
-/*.source-code-btn-2{
-    padding: 2px;
-    border-radius: 5px;
-    background-color: #fff;
-   
-
-}*/
-
-/* .source-code-btn-2 a {
-    text-decoration: none;
-    color: #202A25;
-    font-size: 12px;
-
-} */
-
 
 .contact-wrapper {
-    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 50px 20px;
+    padding: 50px 10%;
 
 
 }
@@ -414,17 +395,22 @@ span {
     align-items: center;
     padding: 15px 30px;
     font-size: 16px;
-    color: #D9D9D9;
-    background-color: #005fbe;
+    color: white;
+    background-color: #1C2541;
     gap: 10px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
 }
 
+.submit-btn:hover{
+    background-color: #0B132B;
+    outline: 1px solid white;
+    transition: all .3s ease-in;
+}
 
 .skills-wrapper {
-    padding: 50px 20px;
+    padding: 50px 10%;
     background-color: #1C2541;
 
 }
@@ -445,7 +431,7 @@ span {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 50px 20px;
+    padding: 50px 10%;
 
 
 }
@@ -479,7 +465,7 @@ span {
 
 .full-row {
     width: 100%;
-    padding: 50px 20px;
+    padding: 50px 10%;
     /* overflow: hidden; */
 }
 
@@ -492,7 +478,7 @@ span {
 body {
 	background: linear-gradient(-45deg, #a8d0e6, #005fbe);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 5s ease infinite;
 	/* height: 100vh;  */
 }
 
@@ -509,17 +495,19 @@ body {
 }
 
 .footer{
-   
-    /* left: 0; */
     width: 100%;
-    background-color: #0B132B;
-    color: white;
-    /* text-align: center; */
-    padding: 50px 20px;
+    background-color: #1C2541;
+    padding: 50px 10%;
     display: flex;
-    gap: 50px;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+   
+}
+
+.footer:hover{
+    background-color: #0B132B;
+    transition: all .3s ease-in;
 }
 
 .socials, .social-element{
@@ -532,11 +520,18 @@ body {
 .social-element{
     font-size: 20px;
     text-align: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-decoration: none;
+    color: white;
     /* gap: 50px; */
     
 
+
+}
+
+.social-element:hover{
+    color: #3f59d5;
+    transition: all .3s ease-in;
 
 }
