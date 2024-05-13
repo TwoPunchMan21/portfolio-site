@@ -5,36 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <script src="script.js" defer></script>
+   
 
 
-    <title>Document</title>
+    <title>Home</title>
 </head>
 
 <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <h1 class="me">Bojan Todoroski</h1>
-                <ul class="navigation">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
+        <a class="me" href="index.html">Bojan Todoroski</a>
+        <nav>
+            <ul class="navigation">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
 
-            </nav>
-            <div class="header-text">
-                <h1>Hi, I am Bojan Todoroski </h1>
-                <p>and I'm a web developer</p>
-                <button class="button1">Download CV</button>
-                <button class="button2">Contact me</button>
-
-            </div>
-
-        </div>
+        </nav>
     </div>
+    <div class="full-row hero">
+    <div class="header-text">
+        <h1>Hi, I am Bojan Todoroski </h1>
+        <p>and I'm a web developer</p>
+        <button class="button1">Download CV</button>
+        <button class="button2">Contact me</button>
+    </div>
+    <img src="images/hero-bojan.png" alt="hero">
+</div>
 <hr>
     <!--about section-->
 
@@ -42,7 +44,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="https://placehold.co/400x500" alt="">
+                    <img src="images/aboutpic.jpg" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="about-title">About me</h1>
@@ -65,6 +67,7 @@
     <h1 class="proj">Projects</h1>
     <div class="grid-wrapper">
         <img id="left" class="chevron" src="images/left-chevron.png" alt="">
+        <!--Koristi divoj-->
         <ul class="carousel">
             <li class="element">
                 <div class="img"><img src="images/minesweeper.jpg" alt="" draggable="false"></div>
@@ -78,7 +81,7 @@
                 <h2>More or less, less is more</h2>
                 <span>Made in JAVA using GUI</span>
                 <br>
-                <button class="source-code-btn-2"> <a href="#">Source code</a></button>
+                <button class="source-code-btn"> <a href="#">Source code</a></button>
             </li>
             <li class="element">
                 <div class="img"><img src="images/minesweeper.jpg" alt="" draggable="false"></div>
@@ -116,7 +119,7 @@
 </div>
  <hr>
 
-    <!--Skills section-->
+    <!--Skills section da vrtet-->
 
     <div class="skills-wrapper">
         <h1 class="skills-title">My skills</h1>
@@ -151,8 +154,18 @@
             <input type="text" name="name" placeholder="Name" class="contact-input" required>
             <input type="email" name="email" placeholder="Your Email" class="contact-input" required>
             <textarea name="message" placeholder="Messaage" class="contact-input" required></textarea>
-            <button type="submit">Submit</button>
+            <button class="submit-btn" type="submit">Submit</button>
         </form>
+    </div>
+
+    <div class="footer">
+        <div class="socials">
+            <a class="social-element" href="#"><i class="fab fa-github"></i></a>
+            <a class="social-element" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-element" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="social-element" href="#"><i class="fab fa-discord"></i></a>
+            <a class="social-element" href="#"><i class="fab fa-twitter"></i></a>
+        </div>
     </div>
 
 
