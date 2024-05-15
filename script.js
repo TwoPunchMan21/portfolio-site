@@ -2,6 +2,30 @@ const carousel = document.querySelector(".carousel");
 const arrowButtons = document.querySelectorAll(".grid-wrapper, .chevron");
 const firstElementWidth = carousel.querySelector(".element").offsetWidth;
 const carouselChildren = [...carousel.children];
+var navElements = document.querySelectorAll('.navigation .nav-element');
+
+navElements.forEach(function(navElement) {
+    navElement.addEventListener('click', function(event) {
+        event.preventDefault(); 
+
+       
+        navElements.forEach(function(element) {
+            element.classList.remove('active');
+        });
+
+        this.classList.add('active');
+
+        var href = this.querySelector('a').getAttribute('href');
+        window.location.href = href;
+    });
+});
+
+console.log(navElements);
+
+
+
+
+
 
 
 let isDragging = false, startX, startScrollLeft;
