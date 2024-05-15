@@ -327,7 +327,7 @@ span {
 }
 
 
-.contact-wrapper {
+#contact-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -409,18 +409,18 @@ span {
     transition: all .3s ease-in;
 }
 
-.skills-wrapper {
+#skills-wrapper {
     padding: 50px 10%;
     background-color: #1C2541;
 
 }
-.skills-wrapper:hover {
+#skills-wrapper:hover {
     transition: all .3s ease-in;
     background-color: #0B132B;
    
 }
 
-.skills-wrapper .skills-display {
+#skills-wrapper .skills-display {
     display: grid;
     grid-auto-flow: column;
 
