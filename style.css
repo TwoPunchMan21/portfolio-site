@@ -17,9 +17,7 @@ body {
     justify-content: space-between;
     padding: 50px 10%;
     position: sticky;
-    /* Ensured no space before !important if used */
     top: 0;
-    /* This tells the browser the header should stick at 0px from the top */
     background-color: #1C2541;
     z-index: 9;
     
@@ -469,7 +467,7 @@ body {
 	background: linear-gradient(-45deg, #a8d0e6, #005fbe);
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite;
-	/* height: 100vh;  */
+	
 }
 
 @keyframes gradient {
@@ -514,7 +512,7 @@ body {
     height: 50px;
     text-decoration: none;
     color: white;
-    /* gap: 50px; */
+   
     
 
 
@@ -524,4 +522,9 @@ body {
     color: #3f59d5;
     transition: all .3s ease-in;
 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
